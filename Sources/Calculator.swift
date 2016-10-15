@@ -1,7 +1,7 @@
 class Calculator {
     
     init(){
-        // do nothing
+        // do nothing here
     }
     func add(_ a:Int, _ b:Int) -> Int {
         return a + b
