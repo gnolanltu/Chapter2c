@@ -1,0 +1,5 @@
+version: "Swift version 3.0.1 (swift-3.0.1-PREVIEW-3)"
+options: "b52cfac6fd66ff39b9d83b0f440334aa"
+build_time: [529870816, 610832000]
+inputs:
+  "/home/codio/workspace/Calculator/Sources/Calculator.swift": [529705244, 0]

@@ -1,0 +1,47 @@
+client:
+  name: swift-build
+tools: {}
+targets:
+  "test": ["<Calculator.module>","<CalculatorTests.module>","<CalculatorPackageTests.test>"]
+  "main": ["<Calculator.module>"]
+default: "main"
+commands: 
+  "<Calculator.module>":
+    tool: swift-compiler
+    executable: "/home/codio/apple/swift/usr/bin/swiftc"
+    module-name: "Calculator"
+    module-output-path: "/home/codio/workspace/Calculator/.build/debug/Calculator.swiftmodule"
+    inputs: []
+    outputs: ["<Calculator.module>","/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator.swift.o"]
+    import-paths: ["/home/codio/workspace/Calculator/.build/debug"]
+    temps-path: "/home/codio/workspace/Calculator/.build/debug/Calculator.build"
+    objects: ["/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/codio/workspace/Calculator/.build/debug/ModuleCache"]
+    sources: ["/home/codio/workspace/Calculator/Sources/Calculator.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<CalculatorTests.module>":
+    tool: swift-compiler
+    executable: "/home/codio/apple/swift/usr/bin/swiftc"
+    module-name: "CalculatorTests"
+    module-output-path: "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.swiftmodule"
+    inputs: ["<Calculator.module>"]
+    outputs: ["<CalculatorTests.module>","/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests.swift.o","/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests.swift.o"]
+    import-paths: ["/home/codio/workspace/Calculator/.build/debug"]
+    temps-path: "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build"
+    objects: ["/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests.swift.o","/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests.swift.o"]
+    other-args: ["-j8","-D","SWIFT_PACKAGE","-Onone","-g","-enable-testing","-module-cache-path","/home/codio/workspace/Calculator/.build/debug/ModuleCache"]
+    sources: ["/home/codio/workspace/Calculator/Tests/CalculatorTests/SimpleCalculatorTests.swift","/home/codio/workspace/Calculator/Tests/CalculatorTests/OtherCalculatorTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "8"
+
+  "<CalculatorPackageTests.test>":
+    tool: shell
+    description: "Linking ./.build/debug/CalculatorPackageTests.xctest"
+    inputs: ["/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests.swift.o","/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests.swift.o","/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator.swift.o"]
+    outputs: ["<CalculatorPackageTests.test>","/home/codio/workspace/Calculator/.build/debug/CalculatorPackageTests.xctest"]
+    args: ["/home/codio/apple/swift/usr/bin/swiftc","-Xlinker","-rpath=$ORIGIN","-g","-L/home/codio/workspace/Calculator/.build/debug","-o","/home/codio/workspace/Calculator/.build/debug/CalculatorPackageTests.xctest","-module-name","CalculatorPackageTests","/home/codio/workspace/Calculator/Tests/LinuxMain.swift","-emit-executable","-I","/home/codio/workspace/Calculator/.build/debug","/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests.swift.o","/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests.swift.o","/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator.swift.o"]
+

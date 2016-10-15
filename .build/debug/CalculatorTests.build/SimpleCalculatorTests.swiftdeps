@@ -1,0 +1,206 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SimpleCalculatorTests"
+provides-nominal:
+- "C15CalculatorTests21SimpleCalculatorTests"
+provides-member:
+- ["C15CalculatorTests21SimpleCalculatorTests", ""]
+- ["C15CalculatorTests21SimpleCalculatorTests", "allTests"]
+depends-top-level:
+- "Void"
+- !private "StringLiteralType"
+- "SimpleCalculatorTests"
+- "Calculator"
+- !private "XCTAssertEqual"
+- !private "FloatLiteralType"
+- "String"
+- !private "IntegerLiteralType"
+- "XCTestCase"
+- "AssignmentPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "Calculator"]
+- !private ["Ps9AnyObject", "XCTAssertEqual"]
+- !private ["Ps9AnyObject", "add"]
+- ["Ps9AnyObject", "allTests"]
+- !private ["Ps9AnyObject", "div"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "mul"]
+- ["Ps9AnyObject", "setUp"]
+- ["Ps9AnyObject", "simpleCalc"]
+- !private ["Ps9AnyObject", "sub"]
+- ["Ps9AnyObject", "tearDown"]
+- ["Ps9AnyObject", "testAddTwoNumbersCheck"]
+- ["Ps9AnyObject", "testDivTwoNumbersCheck"]
+- ["Ps9AnyObject", "testMulTwoNumbersCheck"]
+- ["Ps9AnyObject", "testSubTwoNumbersCheck"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "deinit"]
+- !private ["C10Calculator10Calculator", "add"]
+- ["C10Calculator10Calculator", "deinit"]
+- !private ["C10Calculator10Calculator", "div"]
+- !private ["C10Calculator10Calculator", "init"]
+- !private ["C10Calculator10Calculator", "mul"]
+- !private ["C10Calculator10Calculator", "sub"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["P6XCTest8Listable", "Calculator"]
+- !private ["P6XCTest8Listable", "XCTAssertEqual"]
+- ["P6XCTest8Listable", "allTests"]
+- !private ["P6XCTest8Listable", "init"]
+- ["P6XCTest8Listable", "setUp"]
+- ["P6XCTest8Listable", "simpleCalc"]
+- ["P6XCTest8Listable", "tearDown"]
+- ["P6XCTest8Listable", "testAddTwoNumbersCheck"]
+- ["P6XCTest8Listable", "testDivTwoNumbersCheck"]
+- ["P6XCTest8Listable", "testMulTwoNumbersCheck"]
+- ["P6XCTest8Listable", "testSubTwoNumbersCheck"]
+- ["P6XCTest8Listable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P6XCTest24PerformanceMeterDelegate", "Calculator"]
+- !private ["P6XCTest24PerformanceMeterDelegate", "XCTAssertEqual"]
+- ["P6XCTest24PerformanceMeterDelegate", "allTests"]
+- !private ["P6XCTest24PerformanceMeterDelegate", "init"]
+- ["P6XCTest24PerformanceMeterDelegate", "setUp"]
+- ["P6XCTest24PerformanceMeterDelegate", "simpleCalc"]
+- ["P6XCTest24PerformanceMeterDelegate", "tearDown"]
+- ["P6XCTest24PerformanceMeterDelegate", "testAddTwoNumbersCheck"]
+- ["P6XCTest24PerformanceMeterDelegate", "testDivTwoNumbersCheck"]
+- ["P6XCTest24PerformanceMeterDelegate", "testMulTwoNumbersCheck"]
+- ["P6XCTest24PerformanceMeterDelegate", "testSubTwoNumbersCheck"]
+- ["P6XCTest24PerformanceMeterDelegate", ""]
+- ["C15CalculatorTests21SimpleCalculatorTests", "Calculator"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "SimpleCalculatorTests"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "String"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "Void"]
+- !private ["C15CalculatorTests21SimpleCalculatorTests", "XCTAssertEqual"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "allTests"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "deinit"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "init"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "setUp"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "simpleCalc"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "tearDown"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "testAddTwoNumbersCheck"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "testDivTwoNumbersCheck"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "testMulTwoNumbersCheck"]
+- ["C15CalculatorTests21SimpleCalculatorTests", "testSubTwoNumbersCheck"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["C6XCTest6XCTest", "Calculator"]
+- ["C6XCTest6XCTest", "SimpleCalculatorTests"]
+- ["C6XCTest6XCTest", "String"]
+- ["C6XCTest6XCTest", "Void"]
+- !private ["C6XCTest6XCTest", "XCTAssertEqual"]
+- ["C6XCTest6XCTest", "allTests"]
+- ["C6XCTest6XCTest", "setUp"]
+- ["C6XCTest6XCTest", "simpleCalc"]
+- ["C6XCTest6XCTest", "tearDown"]
+- ["C6XCTest6XCTest", "testAddTwoNumbersCheck"]
+- ["C6XCTest6XCTest", "testDivTwoNumbersCheck"]
+- ["C6XCTest6XCTest", "testMulTwoNumbersCheck"]
+- ["C6XCTest6XCTest", "testSubTwoNumbersCheck"]
+- ["C6XCTest10XCTestCase", "Calculator"]
+- ["C6XCTest10XCTestCase", "SimpleCalculatorTests"]
+- ["C6XCTest10XCTestCase", "String"]
+- ["C6XCTest10XCTestCase", "Void"]
+- !private ["C6XCTest10XCTestCase", "XCTAssertEqual"]
+- ["C6XCTest10XCTestCase", "allTests"]
+- ["C6XCTest10XCTestCase", "deinit"]
+- ["C6XCTest10XCTestCase", "init"]
+- ["C6XCTest10XCTestCase", "setUp"]
+- ["C6XCTest10XCTestCase", "simpleCalc"]
+- ["C6XCTest10XCTestCase", "tearDown"]
+- ["C6XCTest10XCTestCase", "testAddTwoNumbersCheck"]
+- ["C6XCTest10XCTestCase", "testDivTwoNumbersCheck"]
+- ["C6XCTest10XCTestCase", "testMulTwoNumbersCheck"]
+- ["C6XCTest10XCTestCase", "testSubTwoNumbersCheck"]
+- ["C6XCTest10XCTestCase", ""]
+- !private ["P10Foundation12_CFBridgable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["P10Foundation12_NSBridgable", "init"]
+- !private ["P10Foundation17_ObjectBridgeable", "init"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "C10Calculator10Calculator"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "SQ"
+- "Si"
+- "P6XCTest8Listable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "P6XCTest24PerformanceMeterDelegate"
+- "C15CalculatorTests21SimpleCalculatorTests"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Su"
+- "C6XCTest6XCTest"
+- "C6XCTest10XCTestCase"
+- !private "P10Foundation12_CFBridgable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- !private "P10Foundation12_NSBridgable"
+- !private "P10Foundation17_ObjectBridgeable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/codio/apple/swift/usr/lib/swift/shims/Visibility.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/LibcShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/RefCount.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/HeapObject.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/FoundationShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/DispatchShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/codio/apple/swift/usr/lib/swift/shims/module.modulemap"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/XCTest.swiftmodule"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/codio/apple/swift/usr/lib/swift/dispatch/module.modulemap"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/codio/workspace/Calculator/.build/debug/Calculator.swiftmodule"
+interface-hash: "fe60bd1bbb73d3227f792b48e8e24fee"

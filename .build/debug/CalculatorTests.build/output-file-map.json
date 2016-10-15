@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/master.swiftdeps"
+  },
+  "/home/codio/workspace/Calculator/Tests/CalculatorTests/SimpleCalculatorTests.swift": {
+    "dependencies": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests.d",
+    "object": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests.swift.o",
+    "swiftmodule": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests~partial.swiftmodule",
+    "swift-dependencies": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/SimpleCalculatorTests.swiftdeps"
+  },
+  "/home/codio/workspace/Calculator/Tests/CalculatorTests/OtherCalculatorTests.swift": {
+    "dependencies": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests.d",
+    "object": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests.swift.o",
+    "swiftmodule": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests~partial.swiftmodule",
+    "swift-dependencies": "/home/codio/workspace/Calculator/.build/debug/CalculatorTests.build/OtherCalculatorTests.swiftdeps"
+  }
+}

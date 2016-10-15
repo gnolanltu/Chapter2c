@@ -1,0 +1,69 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Calculator"
+provides-nominal:
+- "C10Calculator10Calculator"
+provides-member:
+- ["C10Calculator10Calculator", ""]
+depends-top-level:
+- !private "=="
+- "Int"
+- !private "-"
+- !private "*"
+- !private "FloatLiteralType"
+- !private "+"
+- !private "IntegerLiteralType"
+- !private "/"
+- "Calculator"
+depends-member:
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["C10Calculator10Calculator", "Int"]
+- ["C10Calculator10Calculator", "add"]
+- ["C10Calculator10Calculator", "deinit"]
+- ["C10Calculator10Calculator", "div"]
+- ["C10Calculator10Calculator", "init"]
+- ["C10Calculator10Calculator", "mul"]
+- ["C10Calculator10Calculator", "sub"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "C10Calculator10Calculator"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/codio/apple/swift/usr/lib/swift/shims/Visibility.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/LibcShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/RefCount.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/HeapObject.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/FoundationShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/DispatchShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/codio/apple/swift/usr/lib/swift/shims/module.modulemap"
+- "/home/codio/apple/swift/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "d61b1adfb2e52dda2e2b0dfabd2ec90f"

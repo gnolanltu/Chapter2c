@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/codio/workspace/Calculator/.build/debug/Calculator.build/master.swiftdeps"
+  },
+  "/home/codio/workspace/Calculator/Sources/Calculator.swift": {
+    "dependencies": "/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator.d",
+    "object": "/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator.swift.o",
+    "swiftmodule": "/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator~partial.swiftmodule",
+    "swift-dependencies": "/home/codio/workspace/Calculator/.build/debug/Calculator.build/Calculator.swiftdeps"
+  }
+}
